@@ -883,6 +883,36 @@
         ],
         "folder": "我"
       }
+    ],
+    "wechat": [
+      {
+        "id": "wx-moment-1",
+        "title": "",
+        "body": "《钱塘里》六城巡演启程，第一站西安，我们钱塘里见。",
+        "sender": "陆亚飞",
+        "time": "2026-10-31 20:30",
+        "folder": "朋友圈",
+        "kind": "post",
+        "likes": 86,
+        "comments": [
+          "西安见！",
+          "李老师加油"
+        ]
+      },
+      {
+        "id": "wx-moment-2",
+        "title": "",
+        "body": "金老师恢复得越来越好，亚飞姐巡演加油，我们无锡场见。",
+        "sender": "方小米",
+        "time": "2026-10-30 18:40",
+        "folder": "朋友圈",
+        "kind": "post",
+        "likes": 45,
+        "comments": [
+          "一起加油",
+          "钱塘里见"
+        ]
+      }
     ]
   },
   "variables": {},
