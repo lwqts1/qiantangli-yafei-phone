@@ -1,0 +1,1142 @@
+{
+  "scriptVersion": 1,
+  "id": "qiantangli-yafei-phone",
+  "title": "捡手机 · 陆亚飞",
+  "description": "捡到《钱塘里》陆亚飞的手机。陆亚飞扮演者李霄雯六城巡演进行中——11.1 西安 · 11.8 无锡 · 11.15 济南 · 11.22 南昌 · 11.29 广州 · 12.6 福州。",
+  "revision": 5,
+  "phone": {
+    "owner": "陆亚飞",
+    "date": "2026-10-31",
+    "time": "20:15",
+    "battery": 68,
+    "network": "5G",
+    "wallpaper": "sage",
+    "passcode": "1223"
+  },
+  "installedApps": [
+    "appstore",
+    "contacts",
+    "calendar",
+    "notes",
+    "reminders",
+    "photos",
+    "safari",
+    "mail",
+    "clock",
+    "weibo",
+    "redbook",
+    "alipay",
+    "maps",
+    "music",
+    "weather",
+    "settings",
+    {
+      "id": "wechat",
+      "name": "微信",
+      "installed": true,
+      "visible": true,
+      "dock": true,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "phone",
+      "name": "电话",
+      "installed": true,
+      "visible": true,
+      "dock": true,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "messages",
+      "name": "信息",
+      "installed": true,
+      "visible": true,
+      "dock": true,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "camera",
+      "name": "相机",
+      "installed": true,
+      "visible": true,
+      "dock": true,
+      "folder": "",
+      "icon": ""
+    }
+  ],
+  "contacts": [
+    {
+      "id": "yuefang",
+      "name": "金月芳",
+      "phone": "",
+      "avatar": "",
+      "bio": "妈妈。退休模特队老师，正在康复。"
+    },
+    {
+      "id": "laolu",
+      "name": "老陆",
+      "phone": "",
+      "avatar": "",
+      "bio": "爸爸。"
+    },
+    {
+      "id": "xiaomi",
+      "name": "方小米",
+      "phone": "",
+      "avatar": "",
+      "bio": "照顾妈妈的护工，也是我们的家人。"
+    },
+    {
+      "id": "yunhe",
+      "name": "运河",
+      "phone": "",
+      "avatar": "",
+      "bio": "小米的丈夫，外卖骑手。"
+    },
+    {
+      "id": "songzong",
+      "name": "宋总",
+      "phone": "",
+      "avatar": "",
+      "bio": "美乙团 上司。"
+    },
+    {
+      "id": "lanzi",
+      "name": "兰子",
+      "phone": "",
+      "avatar": "",
+      "bio": "妈妈模特队的姐妹。"
+    },
+    {
+      "id": "caozhuren",
+      "name": "曹主任",
+      "phone": "",
+      "avatar": "",
+      "bio": "同事。"
+    }
+  ],
+  "chats": [
+    {
+      "id": "chat-yuefang",
+      "app": "wechat",
+      "title": "妈",
+      "participants": [
+        "owner",
+        "yuefang"
+      ],
+      "messages": [
+        {
+          "id": "m-yf-1",
+          "title": "",
+          "body": "亚飞，今天赵医生查房，说我恢复得比预想的好。你安心上班。",
+          "senderId": "yuefang",
+          "time": "2026-10-29 09:12"
+        },
+        {
+          "id": "m-yf-2",
+          "title": "",
+          "body": "太好了，妈。复诊那天我请了假，陪你一起。",
+          "senderId": "owner",
+          "time": "2026-10-29 09:15",
+          "hidden": true
+        },
+        {
+          "id": "m-yf-7",
+          "title": "",
+          "body": "亚飞，今天回家吃饭。菜都买好了，排练再忙也要好好吃饭。",
+          "senderId": "yuefang",
+          "time": "2026-10-30 17:30",
+          "hidden": true
+        },
+        {
+          "id": "m-yf-8",
+          "title": "",
+          "body": "知道了，妈。我忙完就回去，你和爸饿了先吃。",
+          "senderId": "owner",
+          "time": "2026-10-30 17:42",
+          "hidden": true
+        },
+        {
+          "id": "m-yf-9",
+          "title": "",
+          "body": "等你回来一起吃，路上慢一点。",
+          "senderId": "yuefang",
+          "time": "2026-10-30 17:43",
+          "hidden": true
+        },
+        {
+          "id": "m-yf-3",
+          "title": "",
+          "body": "兰子她们在群里商量，要组团去西安看你的首演。",
+          "senderId": "yuefang",
+          "time": "2026-10-30 20:05",
+          "hidden": true
+        },
+        {
+          "id": "m-yf-4",
+          "title": "",
+          "body": "妈，你们能来我特别开心。我给你们留前排。",
+          "senderId": "owner",
+          "time": "2026-10-30 20:08",
+          "hidden": true
+        },
+        {
+          "id": "m-yf-5",
+          "title": "",
+          "body": "注意身体，别又熬夜。妈不图别的，就盼你平安。",
+          "senderId": "yuefang",
+          "time": "2026-10-30 20:10",
+          "hidden": true
+        },
+        {
+          "id": "m-yf-6",
+          "title": "",
+          "body": "知道了，妈。早点休息。",
+          "senderId": "owner",
+          "time": "2026-10-30 20:12",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": "chat-xiaomi",
+      "app": "wechat",
+      "title": "方小米",
+      "participants": [
+        "owner",
+        "xiaomi"
+      ],
+      "messages": [
+        {
+          "id": "m-xm-1",
+          "title": "",
+          "body": "亚飞姐，阿姨今天的药和复健都做完了，状态很好。",
+          "senderId": "xiaomi",
+          "time": "2026-10-29 08:30"
+        },
+        {
+          "id": "m-xm-2",
+          "title": "",
+          "body": "辛苦你了，小米。这段时间多亏你在。",
+          "senderId": "owner",
+          "time": "2026-10-29 08:32",
+          "hidden": true
+        },
+        {
+          "id": "m-xm-3",
+          "title": "",
+          "body": "是我该做的。那八万块，我在一点点攒，攒够了就还你。",
+          "senderId": "xiaomi",
+          "time": "2026-10-29 08:35",
+          "hidden": true
+        },
+        {
+          "id": "m-xm-4",
+          "title": "",
+          "body": "说好不用还的，你留着给小宝买奶粉。",
+          "senderId": "owner",
+          "time": "2026-10-29 08:36",
+          "hidden": true
+        },
+        {
+          "id": "m-xm-5",
+          "title": "",
+          "body": "亚飞姐，这钱我一定要还的。你帮我的，我记一辈子。",
+          "senderId": "xiaomi",
+          "time": "2026-10-29 08:38",
+          "hidden": true
+        },
+        {
+          "id": "m-xm-6",
+          "title": "",
+          "body": "亚飞姐，你今天几点回来吃饭？我好算着时间把菜热上。",
+          "senderId": "xiaomi",
+          "time": "2026-10-31 17:30",
+          "hidden": true
+        },
+        {
+          "id": "m-xm-7",
+          "title": "",
+          "body": "大概六点半。小米，你和妈先吃，不用一直等我。",
+          "senderId": "owner",
+          "time": "2026-10-31 17:31",
+          "hidden": true
+        },
+        {
+          "id": "m-xm-8",
+          "title": "",
+          "body": "好，我给你留着。到家就能吃。",
+          "senderId": "xiaomi",
+          "time": "2026-10-31 17:33",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": "chat-laolu",
+      "app": "wechat",
+      "title": "爸",
+      "participants": [
+        "owner",
+        "laolu"
+      ],
+      "messages": [
+        {
+          "id": "m-ll-1",
+          "title": "",
+          "body": "亚飞，你妈这几天老念叨你，让你别太累。",
+          "senderId": "laolu",
+          "time": "2026-10-29 18:40"
+        },
+        {
+          "id": "m-ll-2",
+          "title": "",
+          "body": "爸，我没事。你血压记得量，别老坐着下棋。",
+          "senderId": "owner",
+          "time": "2026-10-29 18:42",
+          "hidden": true
+        },
+        {
+          "id": "m-ll-3",
+          "title": "",
+          "body": "你巡演那几场，你妈非要每场都去，我拦不住啊。",
+          "senderId": "laolu",
+          "time": "2026-10-30 19:30",
+          "hidden": true
+        },
+        {
+          "id": "m-ll-4",
+          "title": "",
+          "body": "让她来，我给她把票都留好，你们就当出来散心。",
+          "senderId": "owner",
+          "time": "2026-10-30 19:32",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": "chat-songzong",
+      "app": "wechat",
+      "title": "宋总",
+      "participants": [
+        "owner",
+        "songzong"
+      ],
+      "messages": [
+        {
+          "id": "m-sz-1",
+          "title": "",
+          "body": "陆经理，S1 汇报的数据再核一遍，下班前发我。",
+          "senderId": "songzong",
+          "time": "2026-10-29 14:02"
+        },
+        {
+          "id": "m-sz-2",
+          "title": "",
+          "body": "收到，宋总。三点前发您。",
+          "senderId": "owner",
+          "time": "2026-10-29 14:05",
+          "hidden": true
+        },
+        {
+          "id": "m-sz-3",
+          "title": "",
+          "body": "别动不动拿总部压我，把项目做出火花来。",
+          "senderId": "songzong",
+          "time": "2026-10-29 14:20",
+          "hidden": true
+        },
+        {
+          "id": "m-sz-4",
+          "title": "",
+          "body": "明白，我会用结果说话。",
+          "senderId": "owner",
+          "time": "2026-10-29 14:22",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": "chat-lanzi",
+      "app": "wechat",
+      "title": "兰子",
+      "participants": [
+        "owner",
+        "lanzi"
+      ],
+      "messages": [
+        {
+          "id": "m-lz-1",
+          "title": "",
+          "body": "亚飞，巡演开票啦！金老师让我们转你：无锡场姐妹包了一整排。",
+          "senderId": "lanzi",
+          "time": "2026-10-30 19:00"
+        },
+        {
+          "id": "m-lz-2",
+          "title": "",
+          "body": "兰子姐，太夸张了，替我谢谢大家。",
+          "senderId": "owner",
+          "time": "2026-10-30 19:02",
+          "hidden": true
+        },
+        {
+          "id": "m-lz-3",
+          "title": "",
+          "body": "不夸张，你可是咱钱塘里的骄傲。",
+          "senderId": "lanzi",
+          "time": "2026-10-30 19:05",
+          "hidden": true
+        },
+        {
+          "id": "m-lz-4",
+          "title": "",
+          "body": "记得让大家演完来后台找我，我们合影。",
+          "senderId": "owner",
+          "time": "2026-10-30 19:07",
+          "hidden": true
+        }
+      ]
+    }
+  ],
+  "content": {
+    "calendar": [
+      {
+        "id": "cal-xian",
+        "title": "《钱塘里》巡演 · 西安站",
+        "body": "开元大剧院 · 凤城九路34号",
+        "time": "2026-11-01 19:30",
+        "meta": {
+          "location": "开元大剧院 · 凤城九路34号"
+        }
+      },
+      {
+        "id": "cal-wuxi",
+        "title": "《钱塘里》巡演 · 无锡站",
+        "body": "无锡大剧院 · 经开区大剧院路1号",
+        "time": "2026-11-08 15:00",
+        "meta": {
+          "location": "无锡大剧院 · 经开区大剧院路1号"
+        }
+      },
+      {
+        "id": "cal-jinan",
+        "title": "《钱塘里》巡演 · 济南站",
+        "body": "山东省会大剧院 · 济南市槐荫区日照路2299号",
+        "time": "2026-11-15 15:00",
+        "meta": {
+          "location": "山东省会大剧院 · 济南市槐荫区日照路2299号"
+        }
+      },
+      {
+        "id": "cal-nanchang",
+        "title": "《钱塘里》巡演 · 南昌站",
+        "body": "南昌保利大剧院 · 红谷滩区隆安一街与环湖路交叉口南180米",
+        "time": "2026-11-22 15:00",
+        "meta": {
+          "location": "南昌保利大剧院 · 红谷滩区隆安一街与环湖路交叉口南180米"
+        }
+      },
+      {
+        "id": "cal-guangzhou",
+        "title": "《钱塘里》巡演 · 广州站",
+        "body": "白云国际会议中心世纪大会堂 · 白云大道南1039—1045号（会议中心4号楼）",
+        "time": "2026-11-29 15:00",
+        "meta": {
+          "location": "白云国际会议中心世纪大会堂 · 白云大道南1039—1045号（会议中心4号楼）"
+        }
+      },
+      {
+        "id": "cal-fuzhou",
+        "title": "《钱塘里》巡演 · 福州站",
+        "body": "福州海峡文化艺术中心 · 仓山区南江滨东大道1号",
+        "time": "2026-12-06 15:00",
+        "meta": {
+          "location": "福州海峡文化艺术中心 · 仓山区南江滨东大道1号"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "id": "note-tour",
+        "title": "巡演档期（六城）",
+        "body": "西安 11.1 19:30 开元大剧院（凤城九路34号）\n无锡 11.8 15:00 大剧院（经开区大剧院路1号）\n济南 11.15 15:00 山东省会大剧院（槐荫区日照路2299号）\n南昌 11.22 15:00 保利大剧院（红谷滩区隆安一街与环湖路交叉口南180米）\n广州 11.29 15:00 白云世纪大会堂（白云大道南1039—1045号，会议中心4号楼）\n福州 12.6 15:00 海峡文化艺术中心（仓山区南江滨东大道1号）",
+        "time": "2026-10-30 09:00",
+        "folder": "巡演"
+      },
+      {
+        "id": "note-mom",
+        "title": "妈妈的康复安排",
+        "body": "复诊 11.3 上午 · 赵医生\n每天记血压\n三七粉 早晚各一次\n轮椅别久坐，多起来动动",
+        "time": "2026-10-28 18:20",
+        "folder": "家人"
+      },
+      {
+        "id": "note-work",
+        "title": "S1 攻坚待办",
+        "body": "数据核对（宋总要）\n曹主任代汇报初稿\n别让情绪影响判断",
+        "time": "2026-10-29 22:10",
+        "folder": "工作"
+      }
+    ],
+    "reminders": [
+      {
+        "id": "rem-xian",
+        "title": "《钱塘里》· 西安 首演",
+        "body": "开元大剧院",
+        "time": "2026-11-01 19:30",
+        "folder": "巡演"
+      },
+      {
+        "id": "rem-wuxi",
+        "title": "《钱塘里》· 无锡站",
+        "body": "无锡大剧院",
+        "time": "2026-11-08 15:00",
+        "folder": "巡演"
+      },
+      {
+        "id": "rem-jinan",
+        "title": "《钱塘里》· 济南站",
+        "body": "山东省会大剧院",
+        "time": "2026-11-15 15:00",
+        "folder": "巡演"
+      },
+      {
+        "id": "rem-nanchang",
+        "title": "《钱塘里》· 南昌站",
+        "body": "南昌保利大剧院",
+        "time": "2026-11-22 15:00",
+        "folder": "巡演"
+      },
+      {
+        "id": "rem-guangzhou",
+        "title": "《钱塘里》· 广州站",
+        "body": "广州白云国际会议中心世纪大会堂",
+        "time": "2026-11-29 15:00",
+        "folder": "巡演"
+      },
+      {
+        "id": "rem-fuzhou",
+        "title": "《钱塘里》· 福州站",
+        "body": "福州海峡文化艺术中心",
+        "time": "2026-12-06 15:00",
+        "folder": "巡演"
+      }
+    ],
+    "weibo": [
+      {
+        "id": "wb-tour",
+        "title": "",
+        "body": "越剧《钱塘里》六城巡演，正式启程！\n西安 · 11.1 19:30 开元大剧院\n无锡 · 11.8 15:00 大剧院\n济南 · 11.15 15:00 山东省会大剧院\n南昌 · 11.22 15:00 保利大剧院\n广州 · 11.29 15:00 白云世纪大会堂\n福州 · 12.6 15:00 海峡文化艺术中心\n我们在钱塘里，等你来。",
+        "sender": "陆亚飞",
+        "time": "2026-10-30 20:00",
+        "likes": 2360,
+        "comments": [
+          "妈妈第一个报名！",
+          "无锡见！",
+          "李老师加油！"
+        ],
+        "meta": {
+          "handle": "lixiaowen",
+          "reposts": "880"
+        }
+      },
+      {
+        "id": "wb-thanks",
+        "title": "",
+        "body": "谢谢妈妈的康复，谢谢小米的陪伴，也谢谢你们一路的等待。这一次，我把《钱塘里》唱给你们听。",
+        "sender": "陆亚飞",
+        "time": "2026-10-29 21:30",
+        "likes": 1280,
+        "comments": [
+          "看哭了",
+          "钱塘里见"
+        ],
+        "meta": {
+          "handle": "lixiaowen",
+          "reposts": "310"
+        }
+      }
+    ],
+    "redbook": [
+      {
+        "id": "rb-tour",
+        "title": "《钱塘里》六城巡演 观演攻略",
+        "body": "第一次挑大梁演越剧，有点紧张。整理了一份六城观演清单，姐妹们带上妈妈一起来～",
+        "sender": "陆亚飞",
+        "time": "2026-10-30 19:00",
+        "likes": 1580,
+        "comments": [
+          "收藏了",
+          "周末带我妈去"
+        ],
+        "meta": {
+          "community": "越剧",
+          "views": "3.2万",
+          "status": "巡演中"
+        }
+      }
+    ]
+  },
+  "variables": {},
+  "events": [
+    {
+      "id": "ev-read-chat-yuefang",
+      "label": "点开 妈",
+      "type": "event",
+      "event": "read",
+      "target": "妈",
+      "next": [
+        "reveal-m-yf-2"
+      ],
+      "once": true
+    },
+    {
+      "id": "reveal-m-yf-2",
+      "label": "浮现 妈 · 第2条",
+      "type": "delay",
+      "delayMs": 2500,
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "m-yf-2",
+          "value": ""
+        }
+      ],
+      "next": [
+        "reveal-m-yf-7"
+      ],
+      "once": true
+    },
+    {
+      "id": "reveal-m-yf-7",
+      "label": "浮现 妈 · 第3条",
+      "type": "delay",
+      "delayMs": 2500,
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "m-yf-7",
+          "value": ""
+        }
+      ],
+      "next": [
+        "reveal-m-yf-8"
+      ],
+      "once": true
+    },
+    {
+      "id": "reveal-m-yf-8",
+      "label": "浮现 妈 · 第4条",
+      "type": "delay",
+      "delayMs": 2500,
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "m-yf-8",
+          "value": ""
+        }
+      ],
+      "next": [
+        "reveal-m-yf-9"
+      ],
+      "once": true
+    },
+    {
+      "id": "reveal-m-yf-9",
+      "label": "浮现 妈 · 第5条",
+      "type": "delay",
+      "delayMs": 2500,
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "m-yf-9",
+          "value": ""
+        }
+      ],
+      "next": [
+        "reveal-m-yf-3"
+      ],
+      "once": true
+    },
+    {
+      "id": "reveal-m-yf-3",
+      "label": "浮现 妈 · 第6条",
+      "type": "delay",
+      "delayMs": 2500,
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "m-yf-3",
+          "value": ""
+        }
+      ],
+      "next": [
+        "reveal-m-yf-4"
+      ],
+      "once": true
+    },
+    {
+      "id": "reveal-m-yf-4",
+      "label": "浮现 妈 · 第7条",
+      "type": "delay",
+      "delayMs": 2500,
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "m-yf-4",
+          "value": ""
+        }
+      ],
+      "next": [
+        "reveal-m-yf-5"
+      ],
+      "once": true
+    },
+    {
+      "id": "reveal-m-yf-5",
+      "label": "浮现 妈 · 第8条",
+      "type": "delay",
+      "delayMs": 2500,
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "m-yf-5",
+          "value": ""
+        }
+      ],
+      "next": [
+        "reveal-m-yf-6"
+      ],
+      "once": true
+    },
+    {
+      "id": "reveal-m-yf-6",
+      "label": "浮现 妈 · 第9条",
+      "type": "delay",
+      "delayMs": 2500,
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "m-yf-6",
+          "value": ""
+        }
+      ],
+      "next": [
+        "ev-ending"
+      ],
+      "once": true
+    },
+    {
+      "id": "ev-read-chat-xiaomi",
+      "label": "点开 方小米",
+      "type": "event",
+      "event": "read",
+      "target": "方小米",
+      "next": [
+        "reveal-m-xm-2"
+      ],
+      "once": true
+    },
+    {
+      "id": "reveal-m-xm-2",
+      "label": "浮现 方小米 · 第2条",
+      "type": "delay",
+      "delayMs": 2500,
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "m-xm-2",
+          "value": ""
+        }
+      ],
+      "next": [
+        "reveal-m-xm-3"
+      ],
+      "once": true
+    },
+    {
+      "id": "reveal-m-xm-3",
+      "label": "浮现 方小米 · 第3条",
+      "type": "delay",
+      "delayMs": 2500,
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "m-xm-3",
+          "value": ""
+        }
+      ],
+      "next": [
+        "reveal-m-xm-4"
+      ],
+      "once": true
+    },
+    {
+      "id": "reveal-m-xm-4",
+      "label": "浮现 方小米 · 第4条",
+      "type": "delay",
+      "delayMs": 2500,
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "m-xm-4",
+          "value": ""
+        }
+      ],
+      "next": [
+        "reveal-m-xm-5"
+      ],
+      "once": true
+    },
+    {
+      "id": "reveal-m-xm-5",
+      "label": "浮现 方小米 · 第5条",
+      "type": "delay",
+      "delayMs": 2500,
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "m-xm-5",
+          "value": ""
+        }
+      ],
+      "next": [
+        "reveal-m-xm-6"
+      ],
+      "once": true
+    },
+    {
+      "id": "reveal-m-xm-6",
+      "label": "浮现 方小米 · 第6条",
+      "type": "delay",
+      "delayMs": 2500,
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "m-xm-6",
+          "value": ""
+        }
+      ],
+      "next": [
+        "reveal-m-xm-7"
+      ],
+      "once": true
+    },
+    {
+      "id": "reveal-m-xm-7",
+      "label": "浮现 方小米 · 第7条",
+      "type": "delay",
+      "delayMs": 2500,
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "m-xm-7",
+          "value": ""
+        }
+      ],
+      "next": [
+        "reveal-m-xm-8"
+      ],
+      "once": true
+    },
+    {
+      "id": "reveal-m-xm-8",
+      "label": "浮现 方小米 · 第8条",
+      "type": "delay",
+      "delayMs": 2500,
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "m-xm-8",
+          "value": ""
+        }
+      ],
+      "next": [
+        "ev-ending"
+      ],
+      "once": true
+    },
+    {
+      "id": "ev-read-chat-laolu",
+      "label": "点开 爸",
+      "type": "event",
+      "event": "read",
+      "target": "爸",
+      "next": [
+        "reveal-m-ll-2"
+      ],
+      "once": true
+    },
+    {
+      "id": "reveal-m-ll-2",
+      "label": "浮现 爸 · 第2条",
+      "type": "delay",
+      "delayMs": 2500,
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "m-ll-2",
+          "value": ""
+        }
+      ],
+      "next": [
+        "reveal-m-ll-3"
+      ],
+      "once": true
+    },
+    {
+      "id": "reveal-m-ll-3",
+      "label": "浮现 爸 · 第3条",
+      "type": "delay",
+      "delayMs": 2500,
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "m-ll-3",
+          "value": ""
+        }
+      ],
+      "next": [
+        "reveal-m-ll-4"
+      ],
+      "once": true
+    },
+    {
+      "id": "reveal-m-ll-4",
+      "label": "浮现 爸 · 第4条",
+      "type": "delay",
+      "delayMs": 2500,
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "m-ll-4",
+          "value": ""
+        }
+      ],
+      "next": [
+        "ev-ending"
+      ],
+      "once": true
+    },
+    {
+      "id": "ev-read-chat-songzong",
+      "label": "点开 宋总",
+      "type": "event",
+      "event": "read",
+      "target": "宋总",
+      "next": [
+        "reveal-m-sz-2"
+      ],
+      "once": true
+    },
+    {
+      "id": "reveal-m-sz-2",
+      "label": "浮现 宋总 · 第2条",
+      "type": "delay",
+      "delayMs": 2500,
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "m-sz-2",
+          "value": ""
+        }
+      ],
+      "next": [
+        "reveal-m-sz-3"
+      ],
+      "once": true
+    },
+    {
+      "id": "reveal-m-sz-3",
+      "label": "浮现 宋总 · 第3条",
+      "type": "delay",
+      "delayMs": 2500,
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "m-sz-3",
+          "value": ""
+        }
+      ],
+      "next": [
+        "reveal-m-sz-4"
+      ],
+      "once": true
+    },
+    {
+      "id": "reveal-m-sz-4",
+      "label": "浮现 宋总 · 第4条",
+      "type": "delay",
+      "delayMs": 2500,
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "m-sz-4",
+          "value": ""
+        }
+      ],
+      "next": [
+        "ev-ending"
+      ],
+      "once": true
+    },
+    {
+      "id": "ev-read-chat-lanzi",
+      "label": "点开 兰子",
+      "type": "event",
+      "event": "read",
+      "target": "兰子",
+      "next": [
+        "reveal-m-lz-2"
+      ],
+      "once": true
+    },
+    {
+      "id": "reveal-m-lz-2",
+      "label": "浮现 兰子 · 第2条",
+      "type": "delay",
+      "delayMs": 2500,
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "m-lz-2",
+          "value": ""
+        }
+      ],
+      "next": [
+        "reveal-m-lz-3"
+      ],
+      "once": true
+    },
+    {
+      "id": "reveal-m-lz-3",
+      "label": "浮现 兰子 · 第3条",
+      "type": "delay",
+      "delayMs": 2500,
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "m-lz-3",
+          "value": ""
+        }
+      ],
+      "next": [
+        "reveal-m-lz-4"
+      ],
+      "once": true
+    },
+    {
+      "id": "reveal-m-lz-4",
+      "label": "浮现 兰子 · 第4条",
+      "type": "delay",
+      "delayMs": 2500,
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "m-lz-4",
+          "value": ""
+        }
+      ],
+      "next": [
+        "ev-ending"
+      ],
+      "once": true
+    },
+    {
+      "id": "ev-ending",
+      "label": "巡演启程 · 我们在钱塘里见",
+      "type": "ending",
+      "conditions": [
+        {
+          "key": "unlocked:m-yf-6",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "unlocked:m-xm-8",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "unlocked:m-ll-4",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "unlocked:m-sz-4",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "unlocked:m-lz-4",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "logic": "and",
+      "next": []
+    }
+  ],
+  "tests": [
+    {
+      "name": "逐个会话浮现",
+      "steps": [
+        {
+          "event": "read",
+          "target": "妈"
+        },
+        {
+          "event": "read",
+          "target": "方小米"
+        },
+        {
+          "event": "read",
+          "target": "爸"
+        },
+        {
+          "event": "read",
+          "target": "宋总"
+        },
+        {
+          "event": "read",
+          "target": "兰子"
+        },
+        {
+          "advanceMs": 60000,
+          "target": ""
+        }
+      ],
+      "ending": "巡演启程 · 我们在钱塘里见",
+      "expectUnlocked": [
+        "m-yf-2",
+        "m-yf-7",
+        "m-yf-8",
+        "m-yf-9",
+        "m-yf-3",
+        "m-yf-4",
+        "m-yf-5",
+        "m-yf-6",
+        "m-xm-2",
+        "m-xm-3",
+        "m-xm-4",
+        "m-xm-5",
+        "m-xm-6",
+        "m-xm-7",
+        "m-xm-8",
+        "m-ll-2",
+        "m-ll-3",
+        "m-ll-4",
+        "m-sz-2",
+        "m-sz-3",
+        "m-sz-4",
+        "m-lz-2",
+        "m-lz-3",
+        "m-lz-4"
+      ]
+    }
+  ]
+}
