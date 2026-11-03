@@ -220,7 +220,7 @@
           "title": "",
           "body": "太好了，妈。复诊那天我请了假，陪你一起。",
           "senderId": "owner",
-          "time": "2026-10-29 09:15",
+          "time": "2026-08-04 09:15",
           "hidden": true
         },
         {
@@ -228,7 +228,7 @@
           "body": "亚飞，今天回家吃饭。菜都买好了，再忙也要好好吃饭。",
           "senderId": "jin-yuefang",
           "time": "2026-10-30 17:30",
-          "hidden": false
+          "hidden": true
         },
         {
           "id": "dinner-mother-reply",
@@ -304,7 +304,7 @@
           "title": "",
           "body": "辛苦你了，小米。这段时间多亏你在。",
           "senderId": "owner",
-          "time": "2026-10-29 08:32",
+          "time": "2026-08-04 08:32",
           "hidden": true
         },
         {
@@ -336,7 +336,7 @@
           "body": "亚飞姐，你今天几点回来吃饭？我好算着时间把菜热上。",
           "senderId": "fang-xiaomi",
           "time": "2026-10-31 17:30",
-          "hidden": false
+          "hidden": true
         },
         {
           "id": "dinner-xiaomi-reply",
@@ -386,7 +386,7 @@
           "title": "",
           "body": "爸，我没事。你血压记得量，别老坐着下棋。",
           "senderId": "owner",
-          "time": "2026-10-29 18:42",
+          "time": "2026-08-04 18:42",
           "hidden": true
         },
         {
@@ -1200,7 +1200,7 @@
         {
           "type": "notification",
           "key": "",
-          "value": "备忘录出现「没有说出口的事」。密码提示在出差行程末尾。"
+          "value": "备忘录出现「没有说出口的事」。密码提示：西安首演日（11月1日）。"
         }
       ]
     },
@@ -1735,7 +1735,7 @@
       "event": "read",
       "conditions": [
         {
-          "key": "read:m-yf-2",
+          "key": "read:dinner-mother-followup",
           "op": "eq",
           "value": true
         },
@@ -2219,6 +2219,48 @@
           "value": true
         }
       ]
+    },
+    {
+      "id": "dinner-mother-unlock",
+      "label": "复诊后，妈妈喊吃饭",
+      "type": "event",
+      "event": "read",
+      "conditions": [
+        {
+          "key": "read:m-yf-2",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "dinner-mother-invite",
+          "value": true
+        }
+      ],
+      "once": true
+    },
+    {
+      "id": "dinner-xiaomi-unlock",
+      "label": "还钱后，小米问回家时间",
+      "type": "event",
+      "event": "read",
+      "conditions": [
+        {
+          "key": "read:m-xm-5",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "dinner-xiaomi-invite",
+          "value": true
+        }
+      ],
+      "once": true
     }
   ],
   "tests": [
@@ -2592,6 +2634,14 @@
       "steps": [
         {
           "event": "read",
+          "target": "m-yf-1"
+        },
+        {
+          "event": "read",
+          "target": "m-yf-2"
+        },
+        {
+          "event": "read",
           "target": "dinner-mother-invite"
         },
         {
@@ -2670,6 +2720,26 @@
     {
       "name": "吃饭互动：方小米，之后仍可通关",
       "steps": [
+        {
+          "event": "read",
+          "target": "m-xm-1"
+        },
+        {
+          "event": "read",
+          "target": "m-xm-2"
+        },
+        {
+          "event": "read",
+          "target": "m-xm-3"
+        },
+        {
+          "event": "read",
+          "target": "m-xm-4"
+        },
+        {
+          "event": "read",
+          "target": "m-xm-5"
+        },
         {
           "event": "read",
           "target": "dinner-xiaomi-invite"
@@ -3026,6 +3096,18 @@
         {
           "event": "read",
           "target": "m-yf-2"
+        },
+        {
+          "event": "read",
+          "target": "dinner-mother-invite"
+        },
+        {
+          "event": "read",
+          "target": "dinner-mother-reply"
+        },
+        {
+          "event": "read",
+          "target": "dinner-mother-followup"
         },
         {
           "event": "read",
