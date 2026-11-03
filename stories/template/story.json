@@ -579,6 +579,184 @@
           "status": "巡演中"
         }
       }
+    ],
+    "weather": [
+      {
+        "id": "weather-0",
+        "title": "西安",
+        "body": "多云转晴",
+        "time": "2026-11-01 08:00",
+        "meta": {
+          "locationLabel": "陕西",
+          "temperature": "15",
+          "high": "18",
+          "low": "8",
+          "condition": "多云转晴",
+          "aqi": "48",
+          "aqiLabel": "优",
+          "sunrise": "06:48",
+          "rain": "10%",
+          "wind": "西北风2级",
+          "hourly": "[{\"time\":\"现在\",\"temperature\":\"15\"},{\"time\":\"14时\",\"temperature\":\"14\"},{\"time\":\"16时\",\"temperature\":\"16\"},{\"time\":\"18时\",\"temperature\":\"14\"},{\"time\":\"20时\",\"temperature\":\"16\"},{\"time\":\"22时\",\"temperature\":\"14\"}]",
+          "daily": "[{\"label\":\"今天\",\"low\":\"8\",\"high\":\"18\"},{\"label\":\"明天\",\"low\":\"9\",\"high\":\"17\"},{\"label\":\"周六\",\"low\":\"7\",\"high\":\"19\"}]"
+        }
+      },
+      {
+        "id": "weather-1",
+        "title": "无锡",
+        "body": "多云",
+        "time": "2026-11-01 08:00",
+        "meta": {
+          "locationLabel": "江苏",
+          "temperature": "17",
+          "high": "20",
+          "low": "12",
+          "condition": "多云",
+          "aqi": "55",
+          "aqiLabel": "良",
+          "sunrise": "06:15",
+          "rain": "20%",
+          "wind": "东风3级",
+          "hourly": "[{\"time\":\"现在\",\"temperature\":\"17\"},{\"time\":\"14时\",\"temperature\":\"16\"},{\"time\":\"16时\",\"temperature\":\"18\"},{\"time\":\"18时\",\"temperature\":\"16\"},{\"time\":\"20时\",\"temperature\":\"18\"},{\"time\":\"22时\",\"temperature\":\"16\"}]",
+          "daily": "[{\"label\":\"今天\",\"low\":\"12\",\"high\":\"20\"},{\"label\":\"明天\",\"low\":\"13\",\"high\":\"19\"},{\"label\":\"周六\",\"low\":\"11\",\"high\":\"21\"}]"
+        }
+      },
+      {
+        "id": "weather-2",
+        "title": "济南",
+        "body": "晴",
+        "time": "2026-11-01 08:00",
+        "meta": {
+          "locationLabel": "山东",
+          "temperature": "14",
+          "high": "16",
+          "low": "7",
+          "condition": "晴",
+          "aqi": "42",
+          "aqiLabel": "优",
+          "sunrise": "06:38",
+          "rain": "5%",
+          "wind": "北风3级",
+          "hourly": "[{\"time\":\"现在\",\"temperature\":\"14\"},{\"time\":\"14时\",\"temperature\":\"13\"},{\"time\":\"16时\",\"temperature\":\"15\"},{\"time\":\"18时\",\"temperature\":\"13\"},{\"time\":\"20时\",\"temperature\":\"15\"},{\"time\":\"22时\",\"temperature\":\"13\"}]",
+          "daily": "[{\"label\":\"今天\",\"low\":\"7\",\"high\":\"16\"},{\"label\":\"明天\",\"low\":\"8\",\"high\":\"15\"},{\"label\":\"周六\",\"low\":\"6\",\"high\":\"17\"}]"
+        }
+      },
+      {
+        "id": "weather-3",
+        "title": "南昌",
+        "body": "阴转多云",
+        "time": "2026-11-01 08:00",
+        "meta": {
+          "locationLabel": "江西",
+          "temperature": "19",
+          "high": "22",
+          "low": "14",
+          "condition": "阴转多云",
+          "aqi": "60",
+          "aqiLabel": "良",
+          "sunrise": "06:28",
+          "rain": "30%",
+          "wind": "南风2级",
+          "hourly": "[{\"time\":\"现在\",\"temperature\":\"19\"},{\"time\":\"14时\",\"temperature\":\"18\"},{\"time\":\"16时\",\"temperature\":\"20\"},{\"time\":\"18时\",\"temperature\":\"18\"},{\"time\":\"20时\",\"temperature\":\"20\"},{\"time\":\"22时\",\"temperature\":\"18\"}]",
+          "daily": "[{\"label\":\"今天\",\"low\":\"14\",\"high\":\"22\"},{\"label\":\"明天\",\"low\":\"15\",\"high\":\"21\"},{\"label\":\"周六\",\"low\":\"13\",\"high\":\"23\"}]"
+        }
+      },
+      {
+        "id": "weather-4",
+        "title": "广州",
+        "body": "晴",
+        "time": "2026-11-01 08:00",
+        "meta": {
+          "locationLabel": "广东",
+          "temperature": "24",
+          "high": "27",
+          "low": "18",
+          "condition": "晴",
+          "aqi": "52",
+          "aqiLabel": "良",
+          "sunrise": "06:35",
+          "rain": "10%",
+          "wind": "东南风2级",
+          "hourly": "[{\"time\":\"现在\",\"temperature\":\"24\"},{\"time\":\"14时\",\"temperature\":\"23\"},{\"time\":\"16时\",\"temperature\":\"25\"},{\"time\":\"18时\",\"temperature\":\"23\"},{\"time\":\"20时\",\"temperature\":\"25\"},{\"time\":\"22时\",\"temperature\":\"23\"}]",
+          "daily": "[{\"label\":\"今天\",\"low\":\"18\",\"high\":\"27\"},{\"label\":\"明天\",\"low\":\"19\",\"high\":\"26\"},{\"label\":\"周六\",\"low\":\"17\",\"high\":\"28\"}]"
+        }
+      },
+      {
+        "id": "weather-5",
+        "title": "福州",
+        "body": "晴间多云",
+        "time": "2026-11-01 08:00",
+        "meta": {
+          "locationLabel": "福建",
+          "temperature": "22",
+          "high": "25",
+          "low": "17",
+          "condition": "晴间多云",
+          "aqi": "46",
+          "aqiLabel": "优",
+          "sunrise": "06:18",
+          "rain": "15%",
+          "wind": "东北风3级",
+          "hourly": "[{\"time\":\"现在\",\"temperature\":\"22\"},{\"time\":\"14时\",\"temperature\":\"21\"},{\"time\":\"16时\",\"temperature\":\"23\"},{\"time\":\"18时\",\"temperature\":\"21\"},{\"time\":\"20时\",\"temperature\":\"23\"},{\"time\":\"22时\",\"temperature\":\"21\"}]",
+          "daily": "[{\"label\":\"今天\",\"low\":\"17\",\"high\":\"25\"},{\"label\":\"明天\",\"low\":\"18\",\"high\":\"24\"},{\"label\":\"周六\",\"low\":\"16\",\"high\":\"26\"}]"
+        }
+      }
+    ],
+    "maps": [
+      {
+        "id": "map-xian",
+        "title": "西安开元大剧院",
+        "body": "凤城九路34号",
+        "meta": {
+          "x": "20",
+          "y": "30"
+        }
+      },
+      {
+        "id": "map-wuxi",
+        "title": "无锡大剧院",
+        "body": "经开区大剧院路1号",
+        "meta": {
+          "x": "68",
+          "y": "38"
+        }
+      },
+      {
+        "id": "map-jinan",
+        "title": "山东省会大剧院",
+        "body": "济南市槐荫区日照路2299号",
+        "meta": {
+          "x": "78",
+          "y": "22"
+        }
+      },
+      {
+        "id": "map-nanchang",
+        "title": "南昌保利大剧院",
+        "body": "红谷滩区隆安一街与环湖路交叉口南180米",
+        "meta": {
+          "x": "45",
+          "y": "60"
+        }
+      },
+      {
+        "id": "map-guangzhou",
+        "title": "广州世纪大会堂",
+        "body": "白云大道南1039—1045号（会议中心4号楼）",
+        "meta": {
+          "x": "40",
+          "y": "78"
+        }
+      },
+      {
+        "id": "map-fuzhou",
+        "title": "福州海峡文化艺术中心",
+        "body": "仓山区南江滨东大道1号",
+        "meta": {
+          "x": "82",
+          "y": "68"
+        }
+      }
     ]
   },
   "variables": {},

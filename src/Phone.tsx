@@ -143,7 +143,11 @@ function PhoneRuntime({
   const [banner, setBanner] = useState("");
   const noticesSeen = useRef(0);
   const [contextApp, setContextApp] = useState("");
-  const [deviceScale, setDeviceScale] = useState(0.84);
+  const [deviceScale, setDeviceScale] = useState(() => {
+    if (typeof window === "undefined") return 0.84;
+    const w = window.innerWidth;
+    return w <= 480 ? Math.min(0.95, (w - 16) / 390) : 0.84;
+  });
   const shell = useRef<HTMLDivElement>(null);
   const gesture = useRef({ x: 0, y: 0, time: 0, zone: "" });
   const [launchOrigin, setLaunchOrigin] = useState(screenOrigin);
