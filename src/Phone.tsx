@@ -290,7 +290,21 @@ function PhoneRuntime({
   useEffect(() => {
     if (app && !work.apps.some((a) => a.id === app && a.installed)) setApp("");
   }, [app, work.apps]);
-  const displayTime = creator ? work.phone.time : s.time || work.phone.time;
+  const [now, setNow] = useState(() => new Date());
+  useEffect(() => {
+    if (creator) return;
+    const t = setInterval(() => setNow(new Date()), 30000);
+    return () => clearInterval(t);
+  }, [creator]);
+  const nowBJ = new Date(now.getTime() + 8 * 3600 * 1000);
+  const displayTime = creator
+    ? work.phone.time
+    : `${String(nowBJ.getUTCHours()).padStart(2, "0")}:${String(
+        nowBJ.getUTCMinutes(),
+      ).padStart(2, "0")}`;
+  const displayDate = creator
+    ? work.phone.date
+    : nowBJ.toISOString().slice(0, 10);
   const plugin = getApp(app);
   useEffect(() => {
     const count = s.notifications.length;
@@ -416,11 +430,7 @@ function PhoneRuntime({
           <AnimatePresence mode="wait">
             {locked && !(quickCamera && app === "camera") ? (
               <DeviceLock
-                work={
-                  s.date
-                    ? { ...work, phone: { ...work.phone, date: s.date } }
-                    : work
-                }
+                work={{ ...work, phone: { ...work.phone, date: displayDate } }}
                 time={displayTime}
                 notices={s.notifications}
                 onDismiss={dismissNotice}
@@ -500,8 +510,8 @@ function PhoneRuntime({
                     name={small ? undefined : a.name}
                     small={small}
                     custom={a.icon}
-                    date={s.date || work.phone.date}
-                    time={s.time}
+                    date={displayDate}
+                    time={displayTime}
                   />
                 )}
                 clearApp={(id) =>
