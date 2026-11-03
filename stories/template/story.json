@@ -757,6 +757,74 @@
           "y": "68"
         }
       }
+    ],
+    "phone": [
+      {
+        "id": "call-1",
+        "title": "妈",
+        "body": "未接",
+        "time": "2026-10-30 19:48",
+        "kind": "call",
+        "meta": {
+          "number": "136 0000 1234",
+          "status": "未接"
+        }
+      },
+      {
+        "id": "call-2",
+        "title": "宋总",
+        "body": "已接",
+        "time": "2026-10-30 15:20",
+        "kind": "call",
+        "meta": {
+          "number": "138 1234 5678",
+          "status": "已接"
+        }
+      },
+      {
+        "id": "call-3",
+        "title": "方小米",
+        "body": "呼出",
+        "time": "2026-10-31 17:28",
+        "kind": "call",
+        "meta": {
+          "number": "139 0000 4321",
+          "status": "呼出"
+        }
+      },
+      {
+        "id": "call-4",
+        "title": "兰子",
+        "body": "未接",
+        "time": "2026-10-30 20:22",
+        "kind": "call",
+        "meta": {
+          "number": "137 0000 2468",
+          "status": "未接"
+        }
+      },
+      {
+        "id": "call-5",
+        "title": "爸",
+        "body": "已接",
+        "time": "2026-10-29 18:35",
+        "kind": "call",
+        "meta": {
+          "number": "135 0000 8765",
+          "status": "已接"
+        }
+      },
+      {
+        "id": "call-6",
+        "title": "运河",
+        "body": "呼出",
+        "time": "2026-10-31 12:10",
+        "kind": "call",
+        "meta": {
+          "number": "188 0000 1357",
+          "status": "呼出"
+        }
+      }
     ]
   },
   "variables": {},
