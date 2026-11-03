@@ -234,18 +234,12 @@ export function compileStory(raw: unknown): { story: Story; work: Work } {
         .flat()
         .map((i) => i.id),
     ),
-    nodeIds = new Set(nodes.map((n) => n.id)),
-    titleIds = new Set(s.chats.map((c) => c.title));
+    nodeIds = new Set(nodes.map((n) => n.id));
   nodes.forEach((n, i) => {
     n.next.forEach((x, j) => {
       if (!nodeIds.has(x)) fail(`events.${i}.next.${j}`, "不存在的节点: " + x);
     });
-    if (
-      n.event === "read" &&
-      n.target &&
-      !itemIds.has(n.target) &&
-      !titleIds.has(n.target)
-    )
+    if (n.event === "read" && n.target && !itemIds.has(n.target))
       fail(`events.${i}.target`, "不存在的内容");
     if (n.event === "openApp" && n.target && !installed.has(n.target))
       fail(`events.${i}.target`, "事件 App 未安装");

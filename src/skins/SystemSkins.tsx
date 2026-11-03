@@ -832,7 +832,7 @@ function LocationMap({
         />
         <rect x="205" y="112" width="42" height="65" rx="7" fill="#bdcfac" />
       </svg>
-      {items.map((i, n) => (
+      {items.map((i, n) => meta(i, "showMarker") === "false" ? null : (
         <button
           key={i.id}
           aria-label={`地图位置${i.title}`}

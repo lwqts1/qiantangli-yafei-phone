@@ -20,6 +20,7 @@ import { useState } from "react";
 import { safeMedia, type Item } from "../schema";
 import {
   Avatar,
+  ProfileLink,
   Empty,
   groupItems,
   Header,
@@ -418,7 +419,7 @@ export function DouyinSkin(p: Props) {
       </div>
       <div className="vertical-feed">
         {list.map((i) => (
-          <VerticalVideo key={i.id} p={p} item={i} />
+          i.meta.profileUrl ? <ProfileLink key={i.id} item={i} /> : <VerticalVideo key={i.id} p={p} item={i} />
         ))}
         <Empty items={list} />
       </div>
@@ -542,4 +543,3 @@ export function NetflixSkin(p: Props) {
     </div>
   );
 }
-

@@ -21,6 +21,7 @@ import { useState } from "react";
 import type { Item } from "../schema";
 import {
   Avatar,
+  ProfileLink,
   Empty,
   groupItems,
   Header,
@@ -351,7 +352,7 @@ export function RedbookSkin(p: Props) {
         <SearchBox value={q} set={setQ} />
         <div className="redbook-masonry">
           {list.map((i) => (
-            <button key={i.id} onClick={() => p.onItem(i)}>
+            i.meta.profileUrl ? <ProfileLink key={i.id} item={i} /> : <button key={i.id} onClick={() => p.onItem(i)}>
               <Media item={i} />
               <strong>{i.title}</strong>
               <div>

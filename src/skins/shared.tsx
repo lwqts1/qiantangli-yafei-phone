@@ -15,6 +15,37 @@ export const meta = (
   key: string,
   fallback = "",
 ) => String(i?.meta?.[key] ?? fallback);
+export function ProfileLink({ item }: { item: Item }) {
+  const [reload, setReload] = useState(0);
+  let href = "";
+  try {
+    const url = new URL(meta(item, "profileUrl"));
+    if (
+      url.protocol === "https:" &&
+      ["v.douyin.com", "www.douyin.com", "www.iesdouyin.com", "www.xiaohongshu.com", "xiaohongshu.com", "xhslink.com", "xhslink.cn"].includes(url.hostname) &&
+      !url.username && !url.password
+    ) href = url.href;
+  } catch { /* Invalid URLs never become embedded pages. */ }
+  return (
+    <section className="social-profile-embed">
+      <div className="social-profile-toolbar">
+        <strong>{item.title}</strong>
+        {href && <button onClick={() => setReload(reload + 1)}>重新加载</button>}
+      </div>
+      {href ? <>
+        <p className="social-profile-status">在线主页 · 内容由平台提供；若要求登录或验证，请按页面提示操作。</p>
+        <iframe
+          key={reload}
+          src={href}
+          title={item.title}
+          sandbox="allow-scripts allow-same-origin allow-forms"
+          allow="fullscreen"
+          referrerPolicy="no-referrer"
+        />
+      </> : <p>主页链接待补充</p>}
+    </section>
+  );
+}
 export function Header({ p, children }: { p: Props; children?: ReactNode }) {
   return (
     <header

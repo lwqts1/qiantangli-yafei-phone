@@ -1,4 +1,5 @@
 import { StatusGlyph } from "./ios/StatusGlyph";
+import { beijingClock } from "./beijingClock";
 import { SocialDetail, socialDetailApps } from "./skins/SocialDetails";
 import { NativeCalculator } from "./ios/Calculator";
 import { HomeLauncher } from "./launcher/HomeLauncher";
@@ -143,11 +144,7 @@ function PhoneRuntime({
   const [banner, setBanner] = useState("");
   const noticesSeen = useRef(0);
   const [contextApp, setContextApp] = useState("");
-  const [deviceScale, setDeviceScale] = useState(() => {
-    if (typeof window === "undefined") return 0.84;
-    const w = window.innerWidth;
-    return w <= 480 ? Math.min(0.95, (w - 16) / 390) : 0.84;
-  });
+  const [deviceScale, setDeviceScale] = useState(0.84);
   const shell = useRef<HTMLDivElement>(null);
   const gesture = useRef({ x: 0, y: 0, time: 0, zone: "" });
   const [launchOrigin, setLaunchOrigin] = useState(screenOrigin);
@@ -294,21 +291,22 @@ function PhoneRuntime({
   useEffect(() => {
     if (app && !work.apps.some((a) => a.id === app && a.installed)) setApp("");
   }, [app, work.apps]);
-  const [now, setNow] = useState(() => new Date());
+  const liveClock = work.variables.liveClockTimezone === "Asia/Shanghai";
+  const [beijing, setBeijing] = useState(beijingClock);
   useEffect(() => {
-    if (creator) return;
-    const t = setInterval(() => setNow(new Date()), 30000);
-    return () => clearInterval(t);
-  }, [creator]);
-  const nowBJ = new Date(now.getTime() + 8 * 3600 * 1000);
-  const displayTime = creator
-    ? work.phone.time
-    : `${String(nowBJ.getUTCHours()).padStart(2, "0")}:${String(
-        nowBJ.getUTCMinutes(),
-      ).padStart(2, "0")}`;
-  const displayDate = creator
-    ? work.phone.date
-    : nowBJ.toISOString().slice(0, 10);
+    if (!liveClock) return;
+    const refresh = () => setBeijing(beijingClock());
+    const timer = setInterval(refresh, 1000);
+    window.addEventListener("focus", refresh);
+    document.addEventListener("visibilitychange", refresh);
+    return () => {
+      clearInterval(timer);
+      window.removeEventListener("focus", refresh);
+      document.removeEventListener("visibilitychange", refresh);
+    };
+  }, [liveClock]);
+  const displayTime = liveClock ? beijing.time : creator ? work.phone.time : s.time || work.phone.time;
+  const displayDate = liveClock ? beijing.date : s.date || work.phone.date;
   const plugin = getApp(app);
   useEffect(() => {
     const count = s.notifications.length;
@@ -434,7 +432,11 @@ function PhoneRuntime({
           <AnimatePresence mode="wait">
             {locked && !(quickCamera && app === "camera") ? (
               <DeviceLock
-                work={{ ...work, phone: { ...work.phone, date: displayDate } }}
+                work={
+                  displayDate
+                    ? { ...work, phone: { ...work.phone, date: displayDate } }
+                    : work
+                }
                 time={displayTime}
                 notices={s.notifications}
                 onDismiss={dismissNotice}

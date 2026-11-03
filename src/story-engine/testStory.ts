@@ -22,19 +22,16 @@ export function testStory(story: Story, work: Work) {
         unlocked.add(item.id);
       }
       if (step.event === "read") {
-        const isTitle = story.chats.some((c) => c.title === step.target);
-        if (!isTitle) {
-          const item = Object.values(work.data)
-            .flat()
-            .find((x) => x.id === step.target);
-          if (
-            !item ||
-            !visible(item, state) ||
-            (item.password && !unlocked.has(item.id))
-          ) {
-            errors.push(at + ": 内容不可读或未解密");
-            continue;
-          }
+        const item = Object.values(work.data)
+          .flat()
+          .find((x) => x.id === step.target);
+        if (
+          !item ||
+          !visible(item, state) ||
+          (item.password && !unlocked.has(item.id))
+        ) {
+          errors.push(at + ": 内容不可读或未解密");
+          continue;
         }
       }
       if (step.choose) {
