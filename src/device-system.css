@@ -1146,8 +1146,8 @@
 .ios18 .notice-stacked .notice-cards {
   overflow: visible;
 }
-.ios18 .notice-stacked .device-notice:before,
-.ios18 .notice-stacked .device-notice:after {
+.ios18 .notice-stacked .device-notice:last-child:before,
+.ios18 .notice-stacked .device-notice:last-child:after {
   content: "";
   position: absolute;
   left: 7px;
@@ -1158,7 +1158,7 @@
   background: #d3d3d888;
   z-index: -1;
 }
-.ios18 .notice-stacked .device-notice:after {
+.ios18 .notice-stacked .device-notice:last-child:after {
   left: 14px;
   right: 14px;
   top: 14px;

@@ -192,18 +192,18 @@ test("mobile device gestures and long press work at 390px without document overf
   });
 });
 
-test("notification stack, authenticated camera return and recent apps preserve the lock boundary", async ({
+test("two visible notifications, authenticated camera return and recent apps preserve the lock boundary", async ({
   page,
 }) => {
   const phone = await setup(page);
-  await expect(phone.locator(".notice-stacked")).toBeVisible();
+  await expect(phone.locator(".notice-stacked")).toHaveCount(0);
+  await expect(phone.locator(".device-notice")).toHaveCount(2);
   await expect(phone.locator(".device-notice").first()).toHaveCSS(
     "opacity",
     "1",
   );
   await phone.screenshot({ path: "outputs/v0.5/lock-notifications.png" });
-  await phone.getByRole("button", { name: "2 条通知", exact: true }).click();
-  await expect(phone.locator(".device-notice")).toHaveCount(2);
+  await expect(phone.locator(".notice-expand")).toHaveCount(0);
   await phone.getByRole("button", { name: "相机", exact: true }).click();
   await expect(phone.locator(".native-camera")).toBeVisible();
   await phone.getByRole("button", { name: "返回桌面" }).click();
