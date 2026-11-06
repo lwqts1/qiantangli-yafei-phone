@@ -150,6 +150,15 @@
       "dock": false,
       "folder": "",
       "icon": ""
+    },
+    {
+      "id": "reminders",
+      "name": "提醒事项",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
     }
   ],
   "contacts": [
@@ -761,7 +770,7 @@
       {
         "id": "call-xiaomi",
         "title": "方小米",
-        "body": "亚飞，你在哪里？我在江边，想找你说说话。",
+        "body": "亚飞姐，你在哪里？我在江边，想找你说说话。",
         "time": "2026-08-18 20:50",
         "hidden": true,
         "kind": "call",
